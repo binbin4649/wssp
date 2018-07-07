@@ -1,4 +1,4 @@
 <?php
-$this->Plugin->initDb('plugin', 'wssp');
+$this->Plugin->initDb('wssp');
 
 ?>
