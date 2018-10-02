@@ -1,6 +1,6 @@
 <?php
 
-class MembersAllModelTest extends CakeTestSuite {
+class WsspAllModelTest extends CakeTestSuite {
 
 	public static function suite() {
 		$suite = new CakeTestSuite('All model tests');

@@ -1,18 +1,18 @@
 <?php
-App::uses('Mylog', 'Members.Model');
+App::uses('WsspUser', 'Wssp.Model');
 
 class MylogTest extends BaserTestCase {
     public $fixtures = array(
-        'plugin.members.Default/Mylog',
+        'plugin.wssp.Default/WsspUser',
     );
 
     public function setUp() {
         parent::setUp();
-        $this->Mylog = ClassRegistry::init('Members.Mylog');
+        $this->WsspUser = ClassRegistry::init('Wssp.WsspUser');
     }
 
     public function testRecord(){
-        $result = $this->Mylog->record('1', 'test');
+        $result = $this->WsspUser->record('1', 'test');
         $this->assertTrue($result);
     }
 

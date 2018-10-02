@@ -3,7 +3,7 @@ App::import('Model', 'AppModel');
 
 class WsspUser extends AppModel {
 
-	public $name = 'Wssp';
+	public $name = 'WsspUser';
 	
 
 }
