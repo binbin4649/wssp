@@ -1,6 +1,6 @@
 <?php
 
-class WsspUserFixture extends BaserTestFixture {
+class WsspUserFixture extends CakeTestFixture {
 	
 	public $import = array('model' => 'Wssp.WsspUser');
 	
